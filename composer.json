@@ -1,0 +1,19 @@
+{
+  "name": "wayup/mvc",
+  "description": "Одна из реализаций MVC модели на примере PHP",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Michael Protasevich",
+      "email": "44201734+m1nyasha@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "larapack/dd": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}
